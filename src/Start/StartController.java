@@ -9,7 +9,7 @@ import javafx.scene.control.CheckBox;
 
 public class StartController {
     public void ShowPass_Changed(ActionEvent actionEvent) {
-
+        //TODO Mechanism showing password
         if(showPassCheckBox.isSelected()) passwordFieldLogin.setVisible(true);
 
     }
